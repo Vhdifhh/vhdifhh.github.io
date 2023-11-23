@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+#header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    
+    padding-bottom: 5px;
+    padding-top: 13px;
+    margin-bottom: 5px;
+    border-radius: 500px;
+
+    
+    
+    text-align: center;
+    font-size: 20px;
+    
+    color: deepskyblue;
+    box-shadow: 3px 3px  3px  3px;
+    text-shadow: 3px 3px 5px;
+    margin-bottom: 10px;
+    
+
+}
+.photo{
+    border-radius: 6%;
+    width: auto;
+    
+    box-shadow: 0 5px 5px;
+    margin: 0px;
+   
+}
+.photo:hover{
+    border-radius: 6% ;
+    width: auto;
+    padding: 2px;
+    box-shadow: 0 14px 20px #04daf7;
+}
+
+.foter{
+
+    
+    padding: 10px;
+
+}
+footer{
+    height: 400px;
+    width: auto;
+    background-color: black;
+    text-align: center;
+    color: pink;
+    font-size: large;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 2%;
+
+}
+.foter{
+    
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+    box-shadow: 4px 3px 8px rgba(6, 235, 235, 0.781);
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+
+}
+.foter:hover{
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: rgb(8, 184, 184);
+    padding: 10px;
+    box-shadow: 4px 3px 8px rgba(6, 235, 235, 0.781);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#name{
+    color: deeppink;
+}
+#from{
+    color: wheat;
+    
+}
+
+.comment-box{
+    width: 50%;
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 1px rgb(165, 165, 165);
+    background-color: black;
+
+}
+.comment-box p{
+    text-align: center;
+    font-size: 28px;
+    color: deeppink;
+
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid #04daf7;
+    color: white;
+    background-color: black;
+    
+
+}
+.comment-form input:hover, .comment-form textarea:hover{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid #04daf7;
+    color: white;
+    box-shadow: 1px 1px 10px #04daf7 ;
+    
+
+}
+
+
+.comment-form button{
+    margin: 10px 0;
+    border: none;
+    background-color: yellow;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: black;
+
+}
+button:hover{
+    color: black;
+    background-color: yellow;
+    box-shadow: 1px 1px 10px  ;
+    width: 87px;
+    height: 42px;
+    box-shadow: 0.5px 0.5px 5px #04daf7;
+
+}
+@media(max-width: 900px ){
+    .comment-box{
+        width: 80%;
+        margin: 5%;
+
+    }
+}
